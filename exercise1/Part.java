@@ -48,6 +48,11 @@ public class Part{
 		}
 
 		//part 5
+		System.out.println("Enter a string with leading and trailing spaces: ");
+		String phrase = scanner.nextLine();
+		String trimmed = phrase.trim();
+		System.out.println("Trimmed string: "+trimmed);
+
 
 
 
