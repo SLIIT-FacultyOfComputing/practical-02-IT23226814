@@ -47,12 +47,20 @@ public class Part{
 			System.out.println(part);
 		}
 
-		//part 5
+ 		// Part 5
 		System.out.println("Enter a string with leading and trailing spaces: ");
 		String phrase = scanner.nextLine();
 		String trimmed = phrase.trim();
-		System.out.println("Trimmed string: "+trimmed);
+		System.out.println("Trimmed string: " + trimmed);
 
+		// Part 6
+		int vowelCount = 0;
+		for (char c : fullName.toLowerCase().toCharArray()) {
+		    if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+		        vowelCount++;
+		    }
+		}
+		System.out.println("Number of vowels in the full name: " + vowelCount);
 
 
 
